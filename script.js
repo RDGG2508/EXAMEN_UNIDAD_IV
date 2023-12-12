@@ -19,3 +19,14 @@ function diasDeLaSemana() {
             return "Escribe bien el día.";
     }
 }
+
+function nombresServicios() {
+    var servicio = ["Hoteles", "Transporte", 8, 1989, 4, 2023, 2, "Visitas guiadas"];
+    var nombresDeServiciosSinNumeros = [];
+        for (var i = 0; i < servicio.length; i++) {
+            if (typeof servicio[i] === 'string') {
+                nombresDeServiciosSinNumeros.push(servicio[i]);
+            }
+        }
+    console.log("El Array sin los números queda así: " + nombresDeServiciosSinNumeros + ".")
+}

@@ -137,3 +137,36 @@ h1 {
 .formulario button:hover {
     background-color: #0056b3;
 }
+
+/* Estilos de servicios */
+.servicios{
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+}
+
+.servicios .card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.servicios .card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.servicios .card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
