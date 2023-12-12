@@ -54,3 +54,86 @@ nav a:hover {
     margin-left: 25px;
     margin-top: 8px;
 }
+
+/* Estilo de fomulario */
+.formulario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content:center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    flex: 1;
+    max-width: 200px;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.formulario select,
+.formulario input[type="date"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    flex: 1;
+    max-width: 200px;
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 42px;
+}
+
+.formulariio label, input, button {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.formulario select, input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
