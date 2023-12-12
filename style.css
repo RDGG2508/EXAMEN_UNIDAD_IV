@@ -138,7 +138,8 @@ h1 {
     background-color: #0056b3;
 }
 
-/* Estilos de servicios */
+
+/* Estilos de sección: Nuestros servicios */
 .servicios{
     width: 100%;
     display: flex;
@@ -171,7 +172,8 @@ h1 {
     color: #fff;
 }
 
-/* Estilos de destinos de promoción */
+
+/* Estilos de sección: Conoce estas ciudades. */
 .destinos_de_promocion {
     background-color: #F2F2F2;
     padding: 20px;
@@ -240,6 +242,7 @@ h1 {
     color: #fff;
 }
 
+
 /* Estilo de preguntas frecuentes */
 details {
     display: flex;
@@ -253,11 +256,11 @@ details {
 
 summary {
     padding: 10px;
-    border: 1px solid #c7500c;
+    border: 1px solid #0056b3;
     cursor: pointer;
     list-style: none;
     text-align: center;
-    background-color: rgb(51, 84, 119);
+    background-color: #007BFF;
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -282,3 +285,110 @@ details[open] div {
     background-color: #fff;
     padding: 10px;
 }
+
+
+/* Estilo del footer */
+footer {
+    background-color: #2fb4cc;
+    color: #000000;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-division-test {
+    display: flex;
+    justify-content: center;
+}
+
+.libro-reclamaciones {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+
+/* Estilo del libro de reclamaciones */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  text-align: left;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #2fb4cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Estilos de lista de footer */
+.lista_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .lista_footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .lista_footer li {
+    margin: 0 20px;
+  }
+  
+  .lista_footer li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .lista_footer li a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+  }
+
+  .lista_footer li a::before {
+    content: ' |';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #333;
+  }
+
+  .lista_footer li a::after {
+    content: '|';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+  }
