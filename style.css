@@ -239,3 +239,46 @@ h1 {
     background: #2fb4cc;
     color: #fff;
 }
+
+/* Estilo de preguntas frecuentes */
+details {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+summary {
+    padding: 10px;
+    border: 1px solid #c7500c;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(51, 84, 119);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+summary::before{
+    content: "+";
+    padding-right: 1rem;
+}
+
+details[open] summary::before{
+    content: "-";
+}
+summary:hover {
+    background-color: #ff8800;
+}
+
+details[open] div {
+    background-color: #fff;
+    padding: 10px;
+}
