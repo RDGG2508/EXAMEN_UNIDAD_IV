@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contáctenos</title>
 </head>
+    
 <body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Envíanos un mensaje</h2>
+            <form action="process_form.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" required>
+        
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    
 </body>
 </html>
